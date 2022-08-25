@@ -1,4 +1,4 @@
-# CIS-376 - Web Devopment
+# CIS-376 - Web Development
 Repo for my Web Dev course - HTML, CSS, JavaScript, jQuery  
 Assignments in order by alphabetical NATO Phonetics
 
