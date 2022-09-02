@@ -19,6 +19,5 @@ $(document).ready(function(){
             $('#doge').attr("src", pictures[0])
             i=0
         }
-        // $('#doge').attr("src", pictures[1])
     })
 });
