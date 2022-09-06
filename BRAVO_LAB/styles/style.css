@@ -1,8 +1,11 @@
 div{
-    margin: 0 auto;
+    justify-content: center ;
 }
 
-img{
-    max-width: 200px;
-    max-height: 700px;
+body{
+    background-color: blue;
+}
+
+#output{
+    text-align: center;
 }
