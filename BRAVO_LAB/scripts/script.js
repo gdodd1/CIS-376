@@ -2,6 +2,7 @@
 $(document).ready(function(){
     $("#output").hide()
     let lastClicked = null
+    
     // What is commented below was the original concept i made, when the image was clicked, the next image would appear
     // and the images would cycle infinitely 
 

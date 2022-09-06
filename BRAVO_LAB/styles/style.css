@@ -1,11 +1,12 @@
-div{
+body {
+    background-color: aquamarine;
+}
+
+div {
     justify-content: center ;
 }
 
-body{
-    background-color: blue;
-}
 
-#output{
+#output {
     text-align: center;
 }
