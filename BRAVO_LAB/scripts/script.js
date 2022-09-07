@@ -2,7 +2,7 @@
 $(document).ready(function(){
     $("#output").hide()
     let lastClicked = null
-    
+
     // What is commented below was the original concept i made, when the image was clicked, the next image would appear
     // and the images would cycle infinitely 
 
@@ -21,11 +21,11 @@ $(document).ready(function(){
 
     $('#standingDoge').click(function(){
         lastClicked = clickedFunction(lastClicked, 0)
-        $('#output').text('You win!')
+        $('#output').text('So much wow!')
     })
     $('#deliciousDoge').click(function(){
         lastClicked = clickedFunction(lastClicked, 1)
-        $('#output').text('You lose!')
+        $('#output').text('Negative wow loser!')
     })
 
 });
