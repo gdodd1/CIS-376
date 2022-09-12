@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+div {
+    justify-content: center ;
+}
+
+
+#output {
+    text-align: center;
+}
