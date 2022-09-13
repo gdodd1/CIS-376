@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: teal;
 }
 
 div {
@@ -9,4 +9,39 @@ div {
 
 #output {
     text-align: center;
+}
+
+/* *{
+    color: white;
+} */
+
+img{
+    max-height: 350px;
+    max-width: 350px !important;
+}
+
+#photos{
+    align-content: center;
+}
+
+.arrow{
+    max-height: 100px;
+}
+
+.custom{
+    margin-top: 15px;
+}
+li{
+    display: inline;
+    padding: 5px;
+    text-decoration: none !important;
+    color: white !important;
+}
+#navBar{
+    background-color: dimgrey !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+h2, h3{
+    margin: 0 auto !important;
 }

@@ -7,25 +7,44 @@ $(document).ready(function(){
 
     // console.log($('#doge').attr("src"));
     let i = 0;
-    const pictures = ["assets/standingDoge.png", "assets/delicious.png", 'https://www.minecraftskins.net/static/preview/doge.png', 'assets/funny.jpg']
-    $('#doge').click(function(){
-        if(i < 3){
-            $('#doge').attr("src", pictures[++i])
-        }
-        else{
-            $('#doge').attr("src", pictures[0])
-            i=0
-                }
+    const pics = ['assets/delicious.png', 'assets/standingDoge.png', 'assets/doge2.png']
+    const words = ['Negative wow, go seee doctr', 'Amazin wow!', 'your amount of wow has surpassed even the most extreme capacities of wow']
+    $('#bigOleButton').click(function(){
+        $("#output").text(words[i]).show()
+        lastClicked = clickedFunction(lastClicked, i)
     })
 
-    $('#standingDoge').click(function(){
-        lastClicked = clickedFunction(lastClicked, 0)
-        $('#output').text('So much wow!')
+    $('#right').click(function(){
+        $('#output').hide()
+        if(i < 2){
+            $('#doge').attr("src", pics[++i])
+        }
+        else{
+            $('#doge').attr("src", pics[0])
+            i=0
+                }
+
     })
-    $('#deliciousDoge').click(function(){
-        lastClicked = clickedFunction(lastClicked, 1)
-        $('#output').text('Negative wow loser!')
+    $('#left').click(function(){
+        $('#output').hide()
+        if(i > 0){
+            $('#doge').attr("src", pics[--i])
+        }
+        else{
+            $('#doge').attr("src", pics[pics.length - 1])
+            i=pics.length-1
+                }
+
     })
+
+    // $('#standingDoge').click(function(){
+    //     lastClicked = clickedFunction(lastClicked, 0)
+    //     $('#output').text('So much wow!')
+    // })
+    // $('#deliciousDoge').click(function(){
+    //     lastClicked = clickedFunction(lastClicked, 1)
+    //     $('#output').text('Negative wow loser!')
+    // })
 
 });
 
@@ -36,7 +55,7 @@ const clickedFunction  = (lastClicked, clicked) => {
         console.log(lastClicked)
     }
     else if (lastClicked === clicked){
-        $('#output').toggle()
+        $('#output').toggle() 
     }
     else if (lastClicked != clicked){
         $('#output').show()

@@ -4,25 +4,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BRAVO LAB</title>
+        <title>CHARLIE LAB</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
         <link rel="stylesheet" href="styles/style.css">
      </head>
     <!-- <body style="background-color:#900;"> -->
         <body> 
-        <div class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
             <ul>
                 <li>Garrett Dodd</li>
-                <li><a href="https://github.com/gdodd1/CIS-376/tree/main/CHARLIE-LAB">Click here for Source Code</a></li>
+                <li><a href="https://github.com/CIS-376/tree/main/CHARLIE-LAB">Source Code</a></li>
             </ul>
-            <!-- <nav class="navbar navbar-light bg-light">
-                <span class="navbar-text">
-                  Navbar text with an inline element
-                </span>
-              </nav> -->
-              
-        </div>
+        </nav>
         <div class="row">
             <h2>Welcome to my Doge Game</h2>
         </div>
@@ -33,17 +27,13 @@
         <div class="row" id="outputDiv">
             <h1 id="output"></h1>
         </div>
+        <div id="photos" class="row">
+            <img src="assets/left.png" alt="" class="col-md-1 arrow" id="left">
+            <img src="assets/delicious.png" alt="doge" class="col-md-10" id="doge">
+            <img src="assets/right.png" alt="" class="col-md-1 arrow" id="right">
+        </div>
         <div class="row">
-                <button type="button" class="btn-xs"><img src="assets/left.png" alt=""></button>
-            <div class="col-md-5">
-                <img src="assets/standingDoge.png" alt="standing doge" id="standingDoge">
-            </div>
-            <div class="col-md-5">
-                <img src="assets/delicious.png" alt="delicious doge" id="deliciousDoge">
-            </div>
-            <div class="col-md-1">
-                <img src="assets/right.png" alt="Right Button">
-            </div>
+        <button type="button" class="btn btn-primary col-md-2 custom" id="bigOleButton">Select</button>
         </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
