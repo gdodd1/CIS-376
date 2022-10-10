@@ -32,8 +32,16 @@ header ul li{
 #page{
     height: 80vh;
 }
-div *{
+/* div *{
     padding: 10px;
+} */
+div p{
+    max-width: 50vw;
+    margin: 0 auto;
+    position: fixed;
+    color: white;
+    bottom: 10vh;
+    position: absolute;
 }
 img{
     max-width: 50vw;
@@ -46,7 +54,14 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 p{
     color: black;
+}
+#page{
+    display:inline-flex;
+}
+#image{
+    width: 50vw;
 }
