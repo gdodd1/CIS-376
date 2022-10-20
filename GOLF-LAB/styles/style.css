@@ -14,6 +14,15 @@ body{
       line-height:60px;
       border-bottom:1px solid #dddddd;
   }
+  header a{
+    padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    color: black;
+    cursor: crosshair;
+  }
+  /* header a:hover{
+    
+  } */
   .hamburger{
     background:none;
     position:absolute;
@@ -59,6 +68,6 @@ body{
     margin-top:5px; 
     margin:0 auto;
   }
-  header{display:inline-block; font-size:12px;}
+  header{display:inline-block; font-size:20px;}
   span{padding-left:20px;}
   a{color:#336699;}
