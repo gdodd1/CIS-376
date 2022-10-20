@@ -162,18 +162,23 @@ $( document ).ready(function() {
     console.log(data[0])
     $( ".cross" ).hide();
     $( ".menu" ).hide();
+
     $( ".hamburger" ).click(function() {
-    $( ".menu" ).slideToggle( "slow", function() {
-    $( ".hamburger" ).hide();
-    $( ".cross" ).show();
+        $('.cody').hide()
+            $( ".menu" ).slideToggle( "fast", function() {
+                $( ".hamburger" ).hide();
+                $( ".cross" ).show();
     });
+
     });
     
     $( ".cross" ).click(function() {
-    $( ".menu" ).slideToggle( "slow", function() {
-    $( ".cross" ).hide();
-    $( ".hamburger" ).show();
+        $( ".menu" ).slideToggle( "fast", function() {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+            $('.cody').show()
     });
+
     });
     
 
@@ -182,7 +187,7 @@ $( document ).ready(function() {
             continue;
         }
         else{
-            $('#list').append("<li> " + data[i].author + "<ul class='customNotjQueryListStuff'><li> <a href='" + data[i].url + "' target='_blank'> Deployment </a></li><li><a href='" + data[i].source + " target='_blank' > Source Code </a> </li> </li>")
+            $('#list').append("<li> " + data[i].author + "<ul class='customNotjQueryListStuff'><li> <a href='" + data[i].url + "' target='_blank'> Deployment </a></li></li><a href='" + data[i].source + " target='_blank' > Source Code </a> </li> </li>")
         }
     }
     // console.log(myJson[0])

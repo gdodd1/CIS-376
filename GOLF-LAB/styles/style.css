@@ -1,5 +1,4 @@
-/* html {
-} */
+
 body{
   background-image: linear-gradient(to bottom left, orchid, blue);
     font-family: 'Noto Sans', sans-serif;
@@ -12,6 +11,7 @@ body{
       
   }
   header{
+      text-align: center;
       width:100%; 
       background:rgba(0,0,0,0.3); 
       height:60px; 
@@ -31,7 +31,7 @@ body{
     background:none;
     position:absolute;
     top:0;
-    right:0;
+    right: 5px;;
     line-height:45px;
     padding:5px 15px 0px 15px;
     color:#999;
@@ -46,7 +46,7 @@ body{
     background:none;
     position:absolute;
     top:0px;
-    right:0;
+    right:5px;
     padding:7px 15px 0px 15px;
     color:#999;
     border:0;
