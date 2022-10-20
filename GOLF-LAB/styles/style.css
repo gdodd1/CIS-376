@@ -58,7 +58,7 @@ body{
     z-index:10000000000000;
   }
   .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:rgba(0,0,0,0.3);  position:absolute; text-align:center; font-size:12px;}
-  .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+  .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none; justify-content: center;}
   .menu>ul>li{border-bottom:#dddddd 1px solid;}
   .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
   .menu li:hover{display: block;    background:rgba(189, 183, 171, 0.3); padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}

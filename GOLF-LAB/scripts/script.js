@@ -187,9 +187,14 @@ $( document ).ready(function() {
             continue;
         }
         else{
-            $('#list').append("<li> " + data[i].author + "<ul class='customNotjQueryListStuff'><li> <a href='" + data[i].url + "' target='_blank'> Deployment </a></li></li><a href='" + data[i].source + " target='_blank' > Source Code </a> </li> </li>")
+            $('#list').append('<div class="card" style="width: 25%; align-items:center"> <h5 class="card-title">' + data[i].name + '</h5> <p class="card-text">' + data[i].appName + '</p> <ul style="list-style:none; display: inline;"><li><a href="' + data[i].url + '" target="_blank" class="btn btn-primary">Deployment</a><a href="' + data[i].source + '" target="_blank" class="btn btn-primary">Source Code</a></li></ul> </div></body>')
         }
     }
     // console.log(myJson[0])
 
     });
+
+
+    /*
+        
+    */

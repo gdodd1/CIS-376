@@ -68,8 +68,7 @@
     {
         "author": "Hardik Gupta",
         "url" : "",
-        "appName" : "",
-        "source" : ""
+        "appName" : ""
     },
     {
         "author": "Hau Huynh",
@@ -109,9 +108,8 @@
     },
     {
         "author": "Maggie Little",
-        "url" : "https://mlittle98.github.io/DELTALAB/ ",
-        "appName" : "Delta Lab",
-        "source" : "https://github.com/mlittle98/DELTALAB/"
+        "url" : "",
+        "appName" : ""
     },
     {
         "author": "Meghan Skelton",
@@ -134,8 +132,7 @@
     {
         "author": "Rachel Thompson",
         "url" : "",
-        "appName" : "Bravo Lab",
-        "source" : "https://github.com/panhead63/bravo/tree/main"
+        "appName" : ""
     },
     {
         "author": "Rishi Doreswamy",
@@ -145,9 +142,8 @@
     },
     {
         "author": "Tychicus Thomas",
-        "url" : "https://tythomas21.github.io/delta/",
-        "appName" : "Charlie Lab",
-        "source" : "https://github.com/tythomas21/charlie-lab"
+        "url" : "",
+        "appName" : ""
     },
     {
         "author": "Wes Wallace",
@@ -158,7 +154,6 @@
     {
         "author": "Zachary Newell",
         "url" : "",
-        "appName" : "",
-        "source" : ""
+        "appName" : ""
     }
 ]
