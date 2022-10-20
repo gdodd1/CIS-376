@@ -9,3 +9,7 @@ Repo for my Web Dev course - HTML, CSS, JavaScript, jQuery
 
 - [ALPHA LAB](https://github.com/gdodd1/CIS-376/tree/main/ALPHA-LAB)
 - [BRAVO LAB](https://github.com/gdodd1/CIS-376/tree/main/BRAVO-LAB)
+- [CHARLIE LAB](https://github.com/gdodd1/CIS-376/tree/main/CHARLIE-LAB)
+- [DELTA LAB](https://github.com/gdodd1/CIS-376/tree/main/DELTA-LAB)
+- [FOXTROT LAB](https://github.com/gdodd1/CIS-376/tree/main/FOXTROT-LAB)
+- [GOLF LAB](https://github.com/gdodd1/CIS-376/tree/main/GOLF-LAB)
