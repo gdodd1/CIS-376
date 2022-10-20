@@ -1,15 +1,19 @@
+/* html {
+} */
 body{
+  background-image: linear-gradient(to bottom left, orchid, blue);
     font-family: 'Noto Sans', sans-serif;
       margin:0;
       width:100%;
       height:100vh;
-        background:#ffffff;
+        /* background:#ffffff; */
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      
   }
   header{
       width:100%; 
-      background:#ffffff; 
+      background:rgba(0,0,0,0.3); 
       height:60px; 
       line-height:60px;
       border-bottom:1px solid #dddddd;
@@ -17,7 +21,7 @@ body{
   header a{
     padding: 5px 5px 5px 10px;
     text-decoration: none;
-    color: black;
+    color: #BDB7AB;
     cursor: crosshair;
   }
   /* header a:hover{
@@ -53,14 +57,15 @@ body{
     outline:none;
     z-index:10000000000000;
   }
-  .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+  .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:rgba(0,0,0,0.3);  position:absolute; text-align:center; font-size:12px;}
   .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+  .menu>ul>li{border-bottom:#dddddd 1px solid;}
   .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-  .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-  .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-  .menu ul li a:hover {  color: #666; text-decoration:none;}
-  .menu a{text-decoration:none; color:#666;}
-  .menu a:hover{text-decoration:none; color:#666;}
+  .menu li:hover{display: block;    background:rgba(189, 183, 171, 0.3); padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+  .menu ul li a { text-decoration:none;  margin: 0px; color: #BDB7AB;}
+  .menu ul li a:hover {  color: #BDB7AB;; text-decoration:none;}
+  .menu a{text-decoration:none; color: #BDB7AB;}
+  .menu a:hover{text-decoration:none; color: #BDB7AB;}
   
   .glyphicon-home{
     color:white; 
@@ -70,4 +75,8 @@ body{
   }
   header{display:inline-block; font-size:20px;}
   span{padding-left:20px;}
-  a{color:#336699;}
+  a{color: #BDB7AB;;}
+
+  /* #grad {
+    background-image: linear-gradient(to bottom right, chartreuse, skyblue);
+  } */
