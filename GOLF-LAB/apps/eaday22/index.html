@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>elijah-lab-delta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Elijah's fun name facts</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link active" href="https://github.com/EAday22/delta_Lab">See Delta Repo!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://github.com/EAday22/Echo_Lab">See Echo Repo!</a>
+          </li> 
+          <li class="nav-item">
+            <a target="_blank" class="nav-link active" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Feaday22.github.io%2Fdelta_Lab%2F">See Validation!</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- this is my name game card -->
+      <div class="col-sm-8 offset-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Cool Name Facts</h4>
+            <p class="card-text">Provide me with your name and click on your birth month for some cool facts!</p>
+            
+            <br>
+
+            <label for="userName" class="form-label">What is your name?</label>
+            <input
+              type="text"
+              id="userName"
+              class="form-control"
+              name="userName"
+            />
+            <button id="btnGetFacts" class="btn btn-secondary">
+              get cool facts
+            </button>
+          </div>
+        </div>
+      </div>
+    
+    <div id="monthDiv" class="col-md-8 offset-sm-2">
+      <button value="Jan">January</button>
+      <button value="Feb">February</button>
+      <button value="Mar">March</button>
+      <button value="Apr">April</button>
+      <button value="May">May</button>
+      <button value="Jun">June</button>
+      <button value="Jul">July</button>
+      <button value="Aug">August</button>
+      <button value="Sep">September</button>
+      <button value="Oct">October</button>
+      <button value="Nov">November</button>
+      <button value="Dec">December</button>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap");
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/4383406.jpg');
+}
+
+.draggable {
+  width: 90px;
+  height: 90px;
+  padding: 0.5em;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#dogeHouse {
+  width: 95%;
+  height: 300px;
+  border: 2px solid rgb(112, 78, 50);
+  padding: 10px;
+}
+
+h3,
+label,
+p {
+  background-color: rgb(255, 255, 255);
+}
+
+h3 {
+  color: rgb(207, 197, 197);
+  font-family: "Quicksand", sans-serif;
+}
+
+.card {
+  margin-top: 1rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nicole Delta Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  
+  <body class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nicole's Name Game</a>
+        <a href="pages/charlie-index.html">go to my Charlie game</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- this is my name game card -->
+      <div class="col-sm-8 offset-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Spirit animal discovery</h4>
+            <p class="card-text">Give me your name to discover your spirit animal!</p>
+
+            <label for="userName" class="form-label">insert your name please !</label>
+            <input
+              type="text"
+              id="userName"
+              class="form-control"
+              name="userName"
+            />
+            <button id="btnGetFacts" class="btn btn-secondary">
+              discover your identity
+            </button>
+
+            <br />
+
+            <span id="coolNameFactsOutput"> </span>
+            <!-- <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

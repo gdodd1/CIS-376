@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- doctype declaration: we are using HTML5 -->
+
+<html lang="en">
+
+<!-- header is "invisible" info about the page -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>lab-delta</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+ <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<!-- visible portion of the page -->
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Emily Tinnon</a>
+      <li class="nav-item">
+        <a class="nav-link active" href="https://github.com/etinnon/cis376-delta">See the Code</a>
+      </li>
+    </div>
+    <ul class="navbar-nav"></ul>
+    <li class ="nav-item"></li>
+  </nav>
+    <div class="row">
+        <div class="col-sm-4 offset-sm-3"> 
+            <div class="form-group">
+                <label for="userName">Enter your name for cool facts</label>
+                <input type="text" class="form-control" id="userName">
+                <button id="btnName" class="btn btn-secondary">Enter your name here</button>
+                          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 offset-sm-3">
+            <div id="nameOutput"></div>
+            <button id="btnClear" class="btn btn-secondary">Clear your name & go again!</button>
+        </div>
+    </div>
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<script src="scripts/script.js"></script>
+
+</html>

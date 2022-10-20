@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<!-- Header -->
+<head>
+  <meta charset="UTF-8">
+  <title>Doge Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="../styles/charlie-styles.css">
+
+</head>
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Nicole Reilly</a>
+    <a href="../index.html">go back to my Delta game</a>    
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="nicolereilly.github.io/echo-lab/">check out the code !</a>
+    </li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+<div class="row">
+<div class="col-md-6 offset-md-4">
+  <h2>Welcome to THE doge game</h2>
+</div>
+</div>
+
+<!-- Intro title-->
+<div class="row">
+<div class="col-md-7 offset-md-3">
+  <h1>Pick my favorite Doge, choose carefully.</h1>
+</div>
+</div>
+
+<!-- Output message-->
+<div id="outputDiv" class="row">
+  <div class="col-md-8 offset-md-3">
+    <h1 id="outputMsg">OUTPUT MESSAGE
+    </h1>
+  </div>
+</div>
+
+<!-- Doge 1 -->
+<div class="row">
+  <div class="card col-md-4 offset-md-1">
+  <div class="card-body">
+    <h4 class="doge1">DOGE 1</h4>
+    <img id="dogeOne" class="card-img-top" src='data:image/jpeg;base64,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'alt=''>
+
+  </div>
+  </div>
+
+<!-- Doge 2 -->
+  <div class="card col-md-4 offset-md-1">
+  <div class="card-body">
+    <h4 class="doge2">DOGE 2</h4>
+    <img id="dogeTwo" class="img-fluid" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYTeDw6oB4q5LbDiKS6gj4IpqtwqOCC5OSg&usqp=CAU' alt="doge meme">
+  </div>
+  </div>
+</div>
+
+<footer>
+  <p>Author: Nicole Reilly</p>
+  <p><a href="https://github.com/nicolereilly/echo-lab">Link to my github + code!</a></p>
+  <p>Consider this my copyright. Nicole Reilly Made This !</p>
+</footer>
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="../scripts/charlie-script.js"></script>
+
+</body>
+</html>

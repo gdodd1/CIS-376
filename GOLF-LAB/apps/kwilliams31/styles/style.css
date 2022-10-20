@@ -1,0 +1,81 @@
+body{
+  background-color: #e1e3eb;
+  foreground-color: #6f73d2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%238397f6' fill-opacity='0.24'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+.topnav {
+  background-color: #7986CB;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  float: right;
+}
+
+.nav-link:hover{
+  color: #FAFAFA;
+}
+
+.topnav a{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navbar-brand{
+  float: left;
+}
+
+.row h1{
+  text-align:center;
+  font-family: 'Averia Sans Libre', cursive;
+}
+
+.row h4{
+  text-align:center;
+  padding: 0px 0px 15px 0px;
+}
+
+
+#DogeGame{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  background-color: #FFE0B2;
+  text-align: center;
+  margin: 0px 20px 15px 50px;
+}
+
+#NameGame{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  background-color: #C5E1A5;
+  text-align: center;
+  margin: 0px 50px 15px 20px;
+}
+
+#NameGame p{
+  text-align: left;
+}
+
+#DogeGame p{
+  text-align: left;
+}
+
+#DogeGame a{
+  color: #ff9933;
+  background-color: #ffe6cc;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+#NameGame a{
+  color: #558B2F;
+  background-color: #e6ffcc;
+  text-decoration: underline;
+  padding: 5px;
+}
